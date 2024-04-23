@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-23T23:02:01 IST" name="Suite" finished-at="2024-04-23T23:03:04 IST" duration-ms="63468">
+    <groups>
+    </groups>
+    <test started-at="2024-04-23T23:02:01 IST" name="internal module" finished-at="2024-04-23T23:03:04 IST" duration-ms="63468">
+      <class name="SauceDemo.TestNG_SauceDemo">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:02:01 IST" name="beforetest" finished-at="2024-04-23T23:02:03 IST" duration-ms="2353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="VerifyInValidCredSignIn()[pri:1, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:02:03 IST" name="VerifyInValidCredSignIn" finished-at="2024-04-23T23:02:06 IST" duration-ms="2751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInValidCredSignIn -->
+        <test-method signature="VerifySignIn()[pri:2, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:02:06 IST" name="VerifySignIn" finished-at="2024-04-23T23:02:06 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignIn -->
+        <test-method signature="VerifyListOfProducts()[pri:3, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:02:06 IST" name="VerifyListOfProducts" finished-at="2024-04-23T23:02:06 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyListOfProducts -->
+        <test-method signature="VerifyByClickingOntheProducts()[pri:4, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:02:06 IST" name="VerifyByClickingOntheProducts" finished-at="2024-04-23T23:02:07 IST" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyByClickingOntheProducts -->
+        <test-method signature="VerifyAddToCart()[pri:5, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:02:07 IST" name="VerifyAddToCart" finished-at="2024-04-23T23:02:07 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddToCart -->
+        <test-method signature="VerifyRemoveFromCart()[pri:6, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:02:07 IST" name="VerifyRemoveFromCart" finished-at="2024-04-23T23:02:07 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRemoveFromCart -->
+        <test-method signature="VerifyHamburgerMenu()[pri:7, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:02:07 IST" name="VerifyHamburgerMenu" finished-at="2024-04-23T23:02:07 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHamburgerMenu -->
+        <test-method signature="VerifyAboutInSidbar()[pri:8, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:02:07 IST" name="VerifyAboutInSidbar" finished-at="2024-04-23T23:02:21 IST" duration-ms="13495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAboutInSidbar -->
+        <test-method signature="VerifyFilterByOptions()[pri:9, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:02:21 IST" name="VerifyFilterByOptions" finished-at="2024-04-23T23:02:21 IST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFilterByOptions -->
+        <test-method signature="VerifyCartOption()[pri:10, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:02:21 IST" name="VerifyCartOption" finished-at="2024-04-23T23:02:22 IST" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCartOption -->
+        <test-method signature="VerifyPageScrolling()[pri:11, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:02:22 IST" name="VerifyPageScrolling" finished-at="2024-04-23T23:02:22 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPageScrolling -->
+        <test-method signature="VerifyScreenshot()[pri:12, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:02:22 IST" name="VerifyScreenshot" finished-at="2024-04-23T23:02:22 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyScreenshot -->
+        <test-method signature="VerifyPageTitle()[pri:13, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:02:22 IST" name="VerifyPageTitle" finished-at="2024-04-23T23:02:22 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPageTitle -->
+        <test-method signature="VerifyRequestDemo()[pri:14, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:02:22 IST" name="VerifyRequestDemo" finished-at="2024-04-23T23:02:29 IST" duration-ms="7098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRequestDemo -->
+        <test-method signature="VerifyFooterlinks()[pri:15, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:02:29 IST" name="VerifyFooterlinks" finished-at="2024-04-23T23:02:30 IST" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFooterlinks -->
+        <test-method signature="VerifyCookiesLink()[pri:16, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:02:30 IST" name="VerifyCookiesLink" finished-at="2024-04-23T23:02:31 IST" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCookiesLink -->
+        <test-method signature="VerifySIgnIn()[pri:17, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:02:31 IST" name="VerifySIgnIn" finished-at="2024-04-23T23:02:31 IST" duration-ms="536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySIgnIn -->
+        <test-method signature="VerifyTryitFreeButton()[pri:18, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:02:31 IST" name="VerifyTryitFreeButton" finished-at="2024-04-23T23:03:02 IST" duration-ms="30510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTryitFreeButton -->
+        <test-method signature="VerifySearchIcon()[pri:19, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:03:02 IST" name="VerifySearchIcon" finished-at="2024-04-23T23:03:03 IST" duration-ms="971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchIcon -->
+        <test-method signature="VerifyLogout()[pri:20, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:03:03 IST" name="VerifyLogout" finished-at="2024-04-23T23:03:03 IST" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogout -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:SauceDemo.TestNG_SauceDemo@5e600dd5]" started-at="2024-04-23T23:03:03 IST" name="aftertest" finished-at="2024-04-23T23:03:04 IST" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- SauceDemo.TestNG_SauceDemo -->
+    </test> <!-- internal module -->
+  </suite> <!-- Suite -->
+</testng-results>
