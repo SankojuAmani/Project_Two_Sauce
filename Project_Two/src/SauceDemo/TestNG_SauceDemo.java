@@ -21,7 +21,7 @@ public class TestNG_SauceDemo {
 		    @Test(priority =1)
 		    public void VerifyInValidCredSignIn() throws Exception {
 		    	TC_2_InvalidCredientials obj = new TC_2_InvalidCredientials (driver);
-		        obj.SignInToSauceDemoInvalidCred();
+		        obj.signInToSauceDemoInvalidCred();
 		    } 
 		  
 		    @Test(priority = 2)
@@ -32,7 +32,7 @@ public class TestNG_SauceDemo {
 		    @Test(priority =3)
 		    public void VerifyListOfProducts() throws Exception {
 		    	TC_3_ListOfItems obj = new TC_3_ListOfItems (driver);
-		        obj.ListOfProducts();
+		        obj.listOfProducts();
 		    } 
 		    @Test(priority =4)
 		    public void VerifyByClickingOntheProducts() throws Exception {
@@ -54,7 +54,7 @@ public class TestNG_SauceDemo {
 		    @Test(priority =7)
 		    public void VerifyHamburgerMenu() throws Exception {
 		    TC_7_Twittericon obj = new  TC_7_Twittericon (driver);
-		    obj.HamburgerMenuOptions(); 
+		    obj.TwitterOption(); 
 		    }
 		    @Test(priority =8)
 		    public void VerifyAboutInSidbar() throws Exception {

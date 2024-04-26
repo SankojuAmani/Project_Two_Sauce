@@ -9,8 +9,9 @@ public class TC_7_Twittericon {
 	public TC_7_Twittericon(WebDriver driver){
 		this.driver =driver;
 	}
-    public void HamburgerMenuOptions() throws InterruptedException{
-driver.findElement(By.xpath(".//li[@class=\"social_twitter\"]")).click();
+	By Twitter_Icon = By.xpath(".//li[@class=\"social_twitter\"]");
+    public void TwitterOption() throws InterruptedException{
+driver.findElement(Twitter_Icon).click();
 
     }
 

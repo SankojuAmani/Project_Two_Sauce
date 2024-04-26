@@ -9,10 +9,14 @@ public class TC_6_RemoveFromCart {
 	public TC_6_RemoveFromCart(WebDriver driver) {
 	    this.driver = driver;
 	}
-	    public void RemoveFromtheCart() throws InterruptedException{
-	    driver.findElement(By.id("remove-sauce-labs-backpack")).click();
-	driver.findElement(By.id("shopping_cart_container")).click();
-	driver.findElement(By.xpath(".//button[@id='continue-shopping']")).click();
+	By RemoveProduct = By.id("remove-sauce-labs-backpack");
+	By Cart = By.id("shopping_cart_container");
+	By Continue_Shopping_Btn = By.xpath(".//button[@id='continue-shopping']");
+	
+	public void RemoveFromtheCart() throws InterruptedException{
+	driver.findElement(RemoveProduct).click();
+	driver.findElement(Cart).click();
+	driver.findElement(Continue_Shopping_Btn).click();
 	}
 	}
 

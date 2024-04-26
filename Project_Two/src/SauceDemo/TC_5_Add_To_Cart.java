@@ -9,8 +9,10 @@ WebDriver driver;
 public TC_5_Add_To_Cart(WebDriver driver) {
     this.driver = driver;
 }
+By Backpack = By.id("add-to-cart-sauce-labs-backpack");
+By Cart = By.id("shopping_cart_container");
     public void AddToCart() throws InterruptedException{
-    driver.findElement(By.id("add-to-cart-sauce-labs-backpack")).click();
-driver.findElement(By.id("shopping_cart_container")).click();
+    driver.findElement(Backpack).click();
+    driver.findElement(Cart).click();
 }
 }
